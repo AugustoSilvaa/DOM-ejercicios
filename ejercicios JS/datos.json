@@ -1,0 +1,19 @@
+{
+ "nombre": "Xavier",
+ "apellido":"Silva",
+ "edad": 30,
+ "Universidad":"UNEXPO",
+ "profesion" : "Ingeniero Mectrónico",
+ "Lenguajes": ["HMTL 5" , "CSS" , "Aprendiendo JavaScript"],
+ "Experiencia":[
+  {  "empresa": "Laboratorios Vargas",
+    "duracion":2},
+    { "empresa": "Polytex de Maracay",
+    "duracion":2}
+ ],
+ "direccion":{
+"pais":"Venezuela",
+"ciudad":"Cúa - Estado Miranda", 
+"calle":"Ciudad Zamora"
+ }
+}

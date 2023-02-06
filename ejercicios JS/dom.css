@@ -1,0 +1,76 @@
+
+:root{
+    --Dark-color:#222;
+    --Yellow-color:#f7d71e
+    --section-color:#B2EBF2;
+}
+
+
+.card{
+    display: inline-block;
+    background-color: var(--Dark-color);
+    color: var(--Yellow-color);
+}
+
+
+.card figcaption{
+    padding: 0.7rem;
+}
+
+.rotate-45{
+    transform: rotate(45deg);
+}
+
+.rotate-135{
+    transform: rotate(135deg);
+}
+
+.opacity{
+    opacity: .8;
+}
+
+.sepia{
+    filter: sepia(1);
+}
+
+
+#hiper{
+    text-decoration: none;
+    color:#EAEDED;
+}
+
+.cards{
+margin: 10px 5px 5px 5px;
+padding: 2px;
+border: 0.7px solid rgb(127, 214, 255);
+border-radius: 3px ;
+}
+
+/* Estilos para el boton */
+
+.btn-style{
+background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);
+color: white;
+border: 0.5 px solid lightgrey;
+margin: 10px;
+
+}
+
+.Eventos-flujos div{
+padding:4rem;
+font-size:2rem;
+text-align: center;
+}
+
+.uno{
+    background-color: yellow;
+    color: black;
+}
+
+.dos{
+    background-color: gold;
+}
+
+.tres{
+    background-color: lightyellow;
+}

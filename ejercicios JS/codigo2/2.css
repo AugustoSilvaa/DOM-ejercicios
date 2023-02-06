@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(34, 34, 34);
+    background-repeat: no-repeat;
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    background-image: url(./Galaxia.jpg);
+    border-radius: 10px;
+    margin:0 auto ; 
+    border: 1px solid lightgray;
+}
+
+.inputs{
+    box-sizing: border-box;
+       outline: none;
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    height: 39px;
+}
+
+.btn-send{
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: 1.3px inset rgb(153, 153, 153);
+    border-radius: 3px;
+    height: 39px;
+    margin-left: 5px;
+
+}
+
+
+.p-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18px;
+}

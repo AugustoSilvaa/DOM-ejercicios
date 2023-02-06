@@ -1,0 +1,10 @@
+
+
+.video1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+}

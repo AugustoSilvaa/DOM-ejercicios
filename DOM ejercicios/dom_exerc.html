@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.css">
+    <link rel="stylesheet" href="./dom_stilos/dom_styles.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Ejercicios del DOM</h1>
+    </header>
+        <button class="panel-btn hamburger hamburger--vortex" type="button">
+            <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <aside class="panel">
+            <nav class="menu">
+                <a href="#seccion1">Reloj Digital y Alarma Sonora</a>
+                <a href="#seccion2">Eventos del Teclado</a>
+                <a href="#seccion3">Cuenta regresiva</a>
+                <a href="#seccion4">seccion 4</a>
+                <a href="#seccion5">seccion 5</a>
+            </nav>
+        </aside>
+        <main>
+            <section id="seccion1" class="section">
+                <h2>Reloj Digital y Alarma Sonora</h2>
+                <div id="reloj"></div>
+                <audio src="./sonidos/alarma1.mp3"></audio>
+                <div >
+                    <button class="btn-clock" id="activar-reloj">Iniciar reloj</button>
+                    <button class="btn-clock" id="detener-reloj">detener reloj</button>
+                    <button class="btn-clock" id="activar-alarma">Inciar alarma</button>
+                    <button class="btn-clock" id="detener-alarma">detener alarma</button>
+                </div>
+            </section>
+            <section id="seccion2" class="section">
+                <h2>Eventos del teclado</h2>
+                <h3> Presiona  <span class="teclado" > Alt+a</span> , <span class="teclado" >Alt+p</span> , <span class="teclado" > Alt+c</span></h3>
+                <article class="stage">
+                    <div class="ball">
+                        
+                    </div>
+                </article>
+            </section>
+            <section id="seccion3" class="section">
+                <h2>Cuenta regresiva</h2>
+                <div class="father-container" id="father-c">
+                    .<div id="countdown" class="DG-C1">
+                    <h2 class="title1" id="t1">Cuenta regresiva para la fecha</h2>
+                    <div class="digit-container">
+                        <div class="digit">
+                            <p class="digitos-reloj" id="days">00</p>
+                            <span class="title2">Días</span>
+                        </div>
+                        <div class="digit" >
+                            <p class="digitos-reloj" id="hours">00</p>
+                            <span class="title2">Horas</span>
+                        </div >
+                        <div class="digit">
+                            <p class="digitos-reloj" id="minutes">00 </p>
+                            <span class="title2">Minutos</span>
+                        </div>
+                        <div class="digit">
+                            <p class="digitos-reloj" id="seconds">00</p>
+                            <span class="title2">Segundos</span>
+                        </div>
+                        </div> 
+                    </div>
+                        <div class="date-controls">
+                            <input type="datetime-local" class="inputs" id="birthday">
+                            <button class="btn-send" type="button" id="btn-s">Iniciar Conteo</button>
+                        </div>
+                </div>
+            </div>   
+                </div>
+            </section>
+            <section id="seccion4" class="section">
+                <h2>section4</h2>
+            </section>
+            <section id="seccion5" class="section">
+                <h2>section5</h2>
+            </section>
+        </main>
+        <button class="scroll-top-btn hidden" >&#11014;</button>
+    <script src="./dom_js/index.js" type="module"></script>
+</body>
+</html> 

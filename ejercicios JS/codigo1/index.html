@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <h1>PROBANDO LAS RUTAS RELATIVAS</h1>
+    <a href="../codigo2/index2.html" style="text-decoration: none;">Ir a pagina 2</a>´
+
+    <h2>Esta es una lista desordenada</h2>
+    <ul>
+        <li>Harina</li>
+        <li>Huevo</li>
+        <li>Azucar</li>
+        <li>Colorante</li>
+        <li>Polvo de hornear</li>
+    </ul>
+
+    <h2>Esto es una lista ordenada</h2>
+    <ol>
+        <li>Harina</li>
+        <li>Huevo</li>
+        <li>Azucar</li>
+        <li>Colorante</li>
+        <li>Polvo de hornear</li>
+    </ol>
+
+    <h2>Esto es una lista anidada</h2>
+      <ol>
+        <li>Harina</li>
+        <li>Huevo</li>
+        <li>Azucar</li>
+        <li> <ul>
+        <li>Colorante Rojo</li>
+        <li>Colorante Verde</li>
+        <li>Colorante Azul</li>
+        <li>Colorante Amarillo</li>
+    </ul></li>
+    <li>Polvo de hornear</li>
+    </ol>
+  <h2>las rutas ábsolutas</h2>
+    <a href="https://pressroom.hostalia.com/white-papers/rutas-absolutas-y-relativas/" style="text-decoration: none;" target="_blank">Aqui informacion de rutas absolutas y relativas</a>
+
+    <h2>insertando imagen</h2>
+    <img src="https://i.pinimg.com/originals/88/94/f1/8894f108e3f98747d6b30625f89b4203.jpg" alt="">
+
+    <h2>insertando video</h2>
+    <video class="video1" src="../video/jm.mp4"  controls loop></video>
+
+    <h2>tablas</h2>
+
+    <table>
+        <tr >
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Edad</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Baute</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Xavier</td>
+            <td>Silva</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>45</td>
+        </tr>
+    </table>
+
+    <h2>Formulario de Registro</h2>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label for="posw">Contraseña</label>
+        <input type="password" id="posw">
+        <label for="rol">Indique su rol</label>
+        <select name="" id="rol" selected>
+            <option value=""selected></option>
+            <option value="">Administrador Principal</option>
+            <option value="">Administrador Secundario</option>
+            <option value="">usuario</option>
+        </select>
+        <label for=""></label>
+    </form>
+    <br>
+    <script src="modulos.js" type="module"></script>
+</body>
+</html>
+

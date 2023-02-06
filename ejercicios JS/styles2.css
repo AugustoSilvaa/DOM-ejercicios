@@ -1,0 +1,26 @@
+
+body{
+    height: 700px;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--hAuexTY2--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/sig0850getbogdnhpy3l.png);
+}
+
+.title{
+    font-style: Inter, sans-serif;
+    color:white;
+    font-size: 75px;
+}
+
+
+.icon{
+    width: 150px;
+    height: 165px;
+    border
+}
