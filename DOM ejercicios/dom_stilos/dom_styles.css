@@ -185,6 +185,7 @@ justify-content: center;
     object-fit: cover;
     border-radius: 10px;
     padding: 2px;
+    border: 0.8px solid lightgray;
 }
 
 .digit{

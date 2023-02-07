@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", e=>{
     alarm("sonidos/alarma1.mp3","#activar-alarma","#detener-alarma");
     countdown("countdown","#btn-s");
     scrollTopBotton(".scroll-top-btn");
-    darkTheme(".dark-theme-btn", "dark-mode");
+    
 })
 
 document.addEventListener("keydown", (e) =>{
@@ -20,3 +20,4 @@ document.addEventListener("keydown", (e) =>{
     moveBall(e,".ball",".stage");
 })
 
+darkTheme(".dark-theme-btn", "dark-mode");
