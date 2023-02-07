@@ -11,7 +11,7 @@ export default function responsiveTester(form){
             
         }
     })
-Document.addEventListener("click", (e)=>{
+document.addEventListener("click", (e)=>{
     if (e.target===$form.cerrar) tester.close();
 })
 
