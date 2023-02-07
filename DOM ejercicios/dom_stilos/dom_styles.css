@@ -352,3 +352,28 @@ color: var(--main-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
 }
+ /*Estilos para el formulario de responsive tester*/
+
+ .input-respTester{
+    padding: 7px;
+    outline: none;
+    border-radius: 7px;
+    margin: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .btn-respTester{
+    margin-top: 7px;
+    margin-left: 3px;
+    padding: 5px 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    border: 0.8px solid lightgray;
+    border-radius: 5px;
+    color: white;
+    
+
+ }
