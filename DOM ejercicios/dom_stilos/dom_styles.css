@@ -276,6 +276,7 @@ border-radius: 8px;
 /* estilos para scroll-top botton */
 
 .scroll-top-btn{
+    box-sizing: border-box;
     position: fixed;
     z-index: 999;
     bottom:1vh;
