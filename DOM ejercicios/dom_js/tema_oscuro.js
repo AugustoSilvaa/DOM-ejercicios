@@ -4,6 +4,7 @@ export default function darkTheme(btn,ClassDark){
     $selectors =document.querySelectorAll("[data-dark]"),
     $stage = document.querySelector(".stage");
 
+
     console.log("stage =>",$stage);
 
     console.log($selectors);
@@ -16,6 +17,7 @@ export default function darkTheme(btn,ClassDark){
         $darkBtn.textContent=moon;
         $stage.classList.remove("stageDark");
         localStorage.setItem("theme","light");
+
     };
 
     const darkMode = () => {
