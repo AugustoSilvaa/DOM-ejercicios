@@ -14,7 +14,7 @@ el contenido de la ventan
 tambien se pude usar "document.elemet.scrollTop" ya que hace la misma funcion
 */
 
-console.log(window.pageYOffset,document.documentElement.scrollTop)
+//console.log(window.pageYOffset,document.documentElement.scrollTop)
 
 let scrolTop = window.pageYOffset || document.documentElement.scrollTop;
   

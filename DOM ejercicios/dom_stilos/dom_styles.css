@@ -158,6 +158,14 @@ justify-content: center;
     border-radius: 5px;
 }
 
+.stageDark{
+    display: flex;
+    min-height: 50vh;
+    background-color:black;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
 .ball{
     margin: auto;
     width: 4rem;
@@ -302,4 +310,35 @@ color: var(--main-color);
 .hidden{
     visibility: hidden;
     opacity: 0;
+}
+
+/* estilos para dark theme botton */
+
+.dark-theme-btn{
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999;
+    bottom:1vh;
+    left:1vw;
+    width: 4rem;
+    height:4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    outline:none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+
+.dark-theme-btn:hover{
+background-color: var(--second-color);
+color: var(--main-color);
+}
+
+.dark-mode{
+    background-color: var(--second-color);
+    color: var(--main-color);
 }
