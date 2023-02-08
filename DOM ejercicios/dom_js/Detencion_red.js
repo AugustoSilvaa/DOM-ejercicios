@@ -1,7 +1,7 @@
-
 export default function networkStatus(){
     const isOnLine = ()=>{
         const $div= document.createElement("div");
+      
    
 
 if (navigator.onLine) {
@@ -18,6 +18,7 @@ document.body.insertAdjacentElement("afterbegin",$div);
 setTimeout(() => {
     document.body.removeChild($div)
 }, 2500);
+
 
 }
 
