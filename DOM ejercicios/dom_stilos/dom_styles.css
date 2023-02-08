@@ -70,6 +70,7 @@ img{
     transform: translate(-100%,0);
     opacity: 0;
     visibility: hidden;
+    overflow-y: auto;
 }
 
 .panel.is-active{
@@ -395,3 +396,18 @@ color: var(--main-color);
     background-color: #b71c1c;
  }
  
+
+ /*** estilos para geolocalizacion **/
+
+ .listGeo{
+margin: 5px;
+
+ }
+
+ .g-mapslink{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #30cfd0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
