@@ -409,5 +409,44 @@ margin: 5px;
     text-decoration: none;
     color: #30cfd0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
  }
+
+ /* Estilos para la seccion de filtro de busqueda*/
+
+ .card{
+    display: inline-block;
+    background-color:black;
+    color:white;
+}
+
+
+.card figcaption{
+    padding: 0.7rem;
+    
+}
+
+.fig-style{
+    padding: 0.7rem;
+    font-weight: bold;
+    color: #f7df1e;
+}
+
+
+.imgfilter-card{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.input-filter{
+    padding: 7px;
+    outline: none;
+    width: 350px;
+    border-radius: 2px;
+    margin: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.filter{
+    display: none;
+}

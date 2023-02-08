@@ -3,8 +3,9 @@ export default function darkTheme(btn,ClassDark){
     const $darkBtn = document.querySelector(btn),
     $selectors =document.querySelectorAll("[data-dark]"),
     $stage = document.querySelector(".stage");
+    //$figcaption =document.querySelectorAll("figcaption");
 
-
+   // console.log("figacaption =>",$figcaption);
     console.log("stage =>",$stage);
 
     console.log($selectors);
@@ -18,13 +19,15 @@ export default function darkTheme(btn,ClassDark){
         $stage.classList.remove("stageDark");
         localStorage.setItem("theme","light");
 
+       
+
     };
 
     const darkMode = () => {
         $selectors.forEach(el=>el.classList.add(ClassDark));
         $darkBtn.textContent=sun;
         $stage.classList.add("stageDark");
-        localStorage.setItem("theme","dark")
+        localStorage.setItem("theme","dark");
     };
 
     document.addEventListener("click", (e)=>{

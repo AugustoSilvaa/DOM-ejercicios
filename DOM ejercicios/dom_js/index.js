@@ -11,6 +11,7 @@ import userDeviceinfo from "./detencion-dispositivos.js";
 import networkStatus from "./Detencion_red.js";
 import webCam from "./Detencion_webcam.js";
 import getGeolocation from "./geolocalizacion.js";
+import searchFilter from "./filtrado_busqueda.js";
 
 document.addEventListener("DOMContentLoaded", e=>{
     hamburgerMenu(".panel-btn",".panel", ".menu a");
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", e=>{
     userDeviceinfo ("user-device");
     webCam("webcam");
     getGeolocation("geolocation");
+    searchFilter(".input-filter",".card")
     
 })
 
