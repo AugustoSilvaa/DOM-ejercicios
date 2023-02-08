@@ -8,6 +8,7 @@ import darkTheme from "./tema_oscuro.js";
 import responsiveMedia from "./objeto_responsive.js";
 import responsiveTester from "./prueba_responsive.js";
 import userDeviceinfo from "./detencion-dispositivos.js";
+import networkStatus from "./Detencion_red.js";
 
 document.addEventListener("DOMContentLoaded", e=>{
     hamburgerMenu(".panel-btn",".panel", ".menu a");
@@ -28,3 +29,4 @@ document.addEventListener("keydown", (e) =>{
 })
 
 darkTheme(".dark-theme-btn", "dark-mode");
+networkStatus();
