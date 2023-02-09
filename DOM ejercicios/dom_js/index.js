@@ -13,6 +13,7 @@ import webCam from "./Detencion_webcam.js";
 import getGeolocation from "./geolocalizacion.js";
 import searchFilter from "./filtrado_busqueda.js";
 import obtenerGanador from "./sorteo_digital.js";
+import slider from "./carrusel.js";
 
 document.addEventListener("DOMContentLoaded", e=>{
     hamburgerMenu(".panel-btn",".panel", ".menu a");
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", e=>{
     getGeolocation("geolocation");
     searchFilter(".input-filter",".card");
     obtenerGanador("sorteo-container","#btn-selection");
+    slider();
     
 })
 

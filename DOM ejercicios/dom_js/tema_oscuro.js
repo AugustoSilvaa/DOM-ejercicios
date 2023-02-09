@@ -8,7 +8,7 @@ export default function darkTheme(btn,ClassDark){
     $figcaption =document.querySelector("figcaption");
 
   console.log("constainer sorteo =>",$sorteoContainer);
-    console.log("card =>",$card);
+    console.log("figcaption =>",$figcaption);
 
     console.log($selectors);
 
