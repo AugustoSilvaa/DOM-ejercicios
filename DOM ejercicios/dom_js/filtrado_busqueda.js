@@ -6,7 +6,9 @@ document.addEventListener("keyup",(e)=>{
         document.querySelectorAll(selector).forEach((el)=>
             el.textContent.toLowerCase().includes(e.target.value)
             ? el.classList.remove("filter")
-            : el.classList.add("filter") );
+            : el.classList.add("filter")
+            
+        );
     }
 })
  }

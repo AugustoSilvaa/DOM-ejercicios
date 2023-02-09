@@ -58,6 +58,8 @@ let xx = {
 console.log(xx)
 console.log(mapa.get("Nombre"))  */
 
+
+/*
 const user ={
     name: "Xavier",
     apellido: "Silva"
@@ -81,5 +83,33 @@ console.log(newfunction(88,55))
 
 const parragraph= documentfront .getElementById("title1");
 
- console.log(parragraph)
+ console.log(parragraph) 
+
+*/
+
+
+export default function obtenerGanador(id,btn1){
+const $div= document.createElement("div");
+ let lenguajes= [ "javascript","React","Next.js","Python","Java","Node.js","PHP","Rust","Angular","SQL","HTML","CSS"];
+document.addEventListener("click",(e)=>{
+    if (e.target.matches(btn1)) {
+        console.log("button selection =>",e.target)
+        const $container=document.getElementById(id);
+    let ganador = lenguajes[ Math.floor(Math.random()*lenguajes.length)] ;
+    $div.innerHTML=`<p class="win-title"> Felcidades el lenguaje ganador es <b>${ganador}</b> 👏🥳</p>`;
+$container.insertAdjacentElement("beforeend",$div);
+    }
+})
+ 
+}
+
+console.log()
+
+ /*const nombres = ["Luis", "Chris", "Link", "María", "Maggie", "Grim"];
+const aleatorio = nombres[Math.floor(Math.random() * nombres.length)];
+console.log("El arreglo es: ");
+console.log(nombres);
+console.log("Y un aleatorio es: ");
+console.log(aleatorio);
+*/
 

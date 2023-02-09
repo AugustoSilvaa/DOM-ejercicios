@@ -12,6 +12,7 @@ import networkStatus from "./Detencion_red.js";
 import webCam from "./Detencion_webcam.js";
 import getGeolocation from "./geolocalizacion.js";
 import searchFilter from "./filtrado_busqueda.js";
+import obtenerGanador from "./sorteo_digital.js";
 
 document.addEventListener("DOMContentLoaded", e=>{
     hamburgerMenu(".panel-btn",".panel", ".menu a");
@@ -25,7 +26,8 @@ document.addEventListener("DOMContentLoaded", e=>{
     userDeviceinfo ("user-device");
     webCam("webcam");
     getGeolocation("geolocation");
-    searchFilter(".input-filter",".card")
+    searchFilter(".input-filter",".card");
+    obtenerGanador("sorteo-container","#btn-selection");
     
 })
 

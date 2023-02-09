@@ -1,0 +1,38 @@
+
+.sorteo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+}
+
+ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    
+}
+
+#btn-selection{
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 5px 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    border: 0.8px solid lightgray;
+    border-radius: 5px;
+    color: white;
+}
+
+.win-title{
+    padding: 7px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+
+}
