@@ -5,10 +5,10 @@ export default function darkTheme(btn,ClassDark){
     $stage = document.querySelector(".stage"),
     $sorteoContainer=document.querySelector(".sorteo"),
     $card =document.querySelectorAll(".card"),
-    $figcaption =document.querySelector("figcaption");
+    $figcaption =document.querySelectorAll("figcaption");
 
   console.log("constainer sorteo =>",$sorteoContainer);
-    console.log("figcaption =>",$figcaption);
+    console.log("Todas las figcaption =>",$figcaption);
 
     console.log($selectors);
 
@@ -20,7 +20,8 @@ export default function darkTheme(btn,ClassDark){
         $darkBtn.textContent=moon;
         $stage.classList.remove("stageDark");
         $sorteoContainer.classList.add("sorteo1");
-        $figcaption.classList.remove("fDark");
+        $figcaption.forEach((el)=>
+        el.classList.remove("fDark"));
         localStorage.setItem("theme","light");
 
     };
@@ -30,7 +31,8 @@ export default function darkTheme(btn,ClassDark){
         $darkBtn.textContent=sun;
         $stage.classList.add("stageDark");
         $sorteoContainer.classList.remove("sorteo1");
-        $figcaption.classList.add("fDark");
+        $figcaption.forEach((el)=>
+        el.classList.add("fDark"));
         localStorage.setItem("theme","dark");
     };
 
